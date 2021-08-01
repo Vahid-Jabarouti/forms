@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="split-screen">
+    <div class="left">
+      <section class="copy">
+        <h1>هامون اندیشه</h1>
+        <p>ارائه دهنده راهکارهای توسعه وب</p>
+      </section>
+    </div>
+    <div class="right">
+      <form>
+        <section class="copy">
+          <h2>ثبت نام</h2>
+          <div class="login-container">
+            <p>قبلا حساب کاربری دارید؟<a href="#">
+                <strong>وارد شوید</strong>
+              </a></p>
+          </div>
+        </section>
+        <div class="input-container name">
+          <label for="fname">نام و نام خانوادگی</label>
+          <input id="fname" name="fname" type="text" />
+        </div>
+        <div class="input-container email">
+          <label for="email">ایمیل</label>
+          <input id="email" name="email" type="email" />
+        </div>
+        <div class="input-container password">
+          <label for="password">رمز عبور</label>
+          <input id="password" placeholder="حداقل 6 کاراکتر وارد کنید" name="password" type="password" />
+          <i class="far fa-eye-slash"></i>
+        </div>
+        <div class="input-container cta">
+          <label for="" class="checkbox-container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            تایید دریافت ایمیل های ما
+          </label>
+        </div>
+        <button class="signup-btn" type="submit">
+          ثبت نام
+        </button>
+        <section class="copy legal">
+          <p><span class="small">با ادامه ثبت نام شما با <br><a href="#"> قوانین </a> و <a href="#">مقررات</a>
+              </a>موافقت
+              میکنید.</span></p>
+        </section>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+html {
+	direction: rlt;
+}
+body {
+	background: #344a72;
+	color: white;
+	line-height: 1.8;
+}
+a {
+	text-decoration: none;
+}
+#container {
+	margin: 50px auto;
+	/* max-width: 800px; */
+	padding: 0;
+}
+.form-wrap {
+	background: #fff;
+	padding: 15px 25px;
+	color: #333;
+}
+.form-wrap h1,
+.form-wrap h3 {
+	text-align: center;
+}
+
+.form-wrap .form-group {
+	margin-top: 15px;
+}
+.form-wrap .bottom-text {
+	font-size: 13px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer a {
+	color: #49c1a2;
+}
